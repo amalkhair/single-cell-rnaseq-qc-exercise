@@ -1,0 +1,12 @@
+data/
+.Rproj.user/
+.Rhistory
+.RData
+.DS_Store
+*.rds
+*.RData
+*.rda
+*.mtx
+*.mtx.gz
+*.tsv
+*.tsv.gz

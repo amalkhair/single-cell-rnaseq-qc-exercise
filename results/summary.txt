@@ -1,0 +1,29 @@
+
+> cat("Single-Cell RNA-seq QC Summary\n")
+Single-Cell RNA-seq QC Summary
+
+> cat("================================\n\n")
+================================
+
+
+> cat("Number of genes:",
++     nrow(merged_seurat), "\n")
+Number of genes: 33538 
+
+> cat("Number of cells:",
++     ncol(merged_seurat), "\n")
+Number of cells: 31444 
+
+> cat("Average transcripts per cell:",
++     mean(merged_seurat$nCount_RNA), "\n")
+Average transcripts per cell: 1644.3 
+
+> cat("Average genes per cell:",
++     mean(merged_seurat$nFeature_RNA), "\n")
+Average genes per cell: 593.2247 
+
+> cat("Average mitochondrial percentage:",
++     mean(merged_seurat$percent.mt), "\n")
+Average mitochondrial percentage: 2.173672 
+
+> sink()
